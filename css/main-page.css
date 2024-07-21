@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/main\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg {
+    background-color: rgba(12, 12, 12, 0.314);
+    margin-top: 35px;
+    width: 35%;
+    height: 90%;
+    margin-left: 10%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55%;
+    padding-left: 16%;
+}
+
+a {
+    padding: 20px;
+}
+
+button {
+    font-size: 20px;
+    width: 75%;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+button:hover {
+    background-color: rgb(179, 59, 184);
+    color: white;
+}
+
+#text {
+    font-size: 65px;
+    margin-left: 30%;
+    color: white;
+    padding-top: 20px;
+    border: 0.5px black;
+    font-weight: 600;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Crush</title>
+
+    <link rel="stylesheet" href="../css/font-face.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/UserHomePage.css">
+</head>
+
+<body>
+    <div id="bg">
+        <div class="tab">
+            <button id="text" class="tablinks" onclick="view('instruction')">Instruction</button>
+            <button id="text" class="tablinks" onclick="view('play')">Play</button>
+            <button id="text" class="tablinks" onclick="view('goals')">Accomplishments </button>
+            <button id="text" class="tablinks" onclick="view('details')">Details</button>
+        </div>
+        <h1 id="text">Hello <span id="userName"></span> </h1>
+        <div id="instruction" class="tabcontent">
+            <h1 id="text">Instruction</h1>
+            <p id="text">Welcome to candy-crush! <br>
+                In order to win the game you will need to earn points untill you reach the goal. <br>
+                You will be able to earn points by creating a pattern of 3 or 4 candys of the same type. <br>
+                for example: <br>
+                <img src="../images/Blue.png"> + <img src="../images/Blue.png"> + <img src="../images/Blue.png">= +3
+                <br>
+                your goals: <br>
+                level 1: 60 points<br>
+                level 2: 90 points <br>
+                level 3: 120 points <br>
+                you have 60 secondes to reach your goal. <br>
+            </p>
+        </div>
+
+        <div id="details" class="tabcontent">
+            <p id="text">name:<span id="fname"></span><br>
+                email:<span id="email"></span><br>
+                password: <span id="psw"></span>
+            </p>
+        </div>
+        <div id="goals" class="tabcontent">
+            <p id="text"> Your top Score: <span id="highScore"></span><br>
+                Total games: <span id="count"></span><br>
+                Winning games:<span id="winner">
+                </span>
+            </p>
+        </div>
+        <div id="play" class="tabcontent">
+            <a href="./candy-crush-game.html" id="buttons"><button onclick="restart()">Start</button></a>
+            <a href="./candy-crush-game.html" id="buttons"><button>Continue</button></a>
+        </div>
+
+    </div>
+</body>
+<script src="../js/User-HomePage.js"></script>
+<script src="../js/globals.js"></script>
+
+</html>

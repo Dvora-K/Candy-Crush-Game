@@ -1,0 +1,71 @@
+body, main {
+  width: 100vh;
+  height: 100vh;
+  background-image: url(../images/main\ page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(12, 12, 12, 0.314);
+  margin: 20% 60% 40% 10%;
+  margin-left: 20%;
+  width: 45%;
+  height: 60%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+div h1 {
+  letter-spacing: 4px;
+}
+
+div form {
+  width: 90%;
+}
+
+form input {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+}
+
+a {
+  padding: 20px;
+}
+
+button {
+  margin-top: 15px;
+  width: 80%;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+
+}
+
+#lgin {
+  width: 40%;
+  height: 30px;
+  padding: 10px;
+  margin-left: 20%;
+}
+
+button:hover {
+  background-color: rgb(179, 59, 184);
+  color: white;
+}
+
+#text {
+  color: white;
+  font-weight: 500;
+}

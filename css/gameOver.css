@@ -1,0 +1,22 @@
+body {
+  background-image: url(../images/GameOver.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+button {
+  margin-left: 20%;
+  margin-top: 15px;
+  width: 20%;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+
+}
+
+button:hover {
+  background-color: rgb(179, 59, 184);
+  color: white;
+}

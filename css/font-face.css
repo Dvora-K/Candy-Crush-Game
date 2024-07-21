@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Manrope-ExtraLight";
+    src: url(../webfonts/Manrope_font/Manrope-ExtraLight.ttf);
+}
+
+#text {
+    font-family: "Manrope-ExtraLight";
+}

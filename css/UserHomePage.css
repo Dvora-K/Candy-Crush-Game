@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/main\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg {
+    background-color: rgba(12, 12, 12, 0.445);
+    margin-top: 25px;
+    width: 35%;
+    height: 95%;
+    margin-left: 10%;
+    border: 1px solid white;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+#play {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35%;
+    padding-left: 15%;
+}
+
+#play p {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#instruction {
+    display: flex;
+    display: none;
+    flex-direction: column;
+}
+
+#instruction h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#instruction p {
+    margin: 10px 10px;
+}
+
+#buttons button {
+    font-size: 20px;
+    height: 50px;
+    width: 70%;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgb(179, 59, 184);
+    color: white;
+}
+
+#text {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 130%;
+    margin-left: 25px;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #00000000;
+    border: solid 2px black;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: rgb(179, 59, 184);
+    color: white;
+}
+
+.tab #text {
+    font-size: 20px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
